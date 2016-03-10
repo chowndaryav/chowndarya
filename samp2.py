@@ -14,13 +14,13 @@ class close_error(RuntimeError):
 
 def main():
     try:
-        child=pexpect.spawn('ftp ftpopenbsd.org')
+        child=pexpect.spawn('ftp ftp.openbsd.org')
         if not child:
            raise conn_error("ftp_con")
         index=child.expect (['Name .*: ','name.*:','ftp>'])
         if index==0 or index==1:
            child.sendline ('anonymous')
-           hey1=child.expect ('Password:','ftp>')
+           hey1=child.expect (['Password:','ftp>'])
            if hey1==0:
               child.sendline ('chowndarya94@gmail.com')
         nom=len(sys.argv)
