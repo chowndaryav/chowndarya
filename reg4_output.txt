@@ -1,0 +1,4 @@
+chowndarya@ubuntu:~/proj1$ python reg4.py okay
+Input here:hello excuse just wait for five minutes^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[hhchhv jhsidjsd   
+['okay', 'okay', 'just', 'wait', 'for', 'five', 'okay', 'okay']
+

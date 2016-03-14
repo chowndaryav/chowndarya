@@ -1,0 +1,3 @@
+chowndarya@ubuntu:~/proj1$ python reg2.py
+{'jkl': 1, 'abc': 3, 'ghi': 1, 'def': 1}
+
